@@ -4,6 +4,12 @@ Hier werden die zur Recherche verwendeten Informationsquellen sowie deren Quella
 
 ## Quellen
 
-- Quellname
+- Quicksort Algorithmus / Quick Sort Sortierverfahren mit Beispiel (deutsch)
   - Art der Informationen
   - Url / Quellangabe
+  
+- Quicksort Algorithmus / Quick Sort Sortierverfahren mit Beispiel (deutsch)
+  - Erklärvideo, wie der Quicksort Algorithmus funktioniert.
+  - https://www.youtube.com/watch?v=eNUM23f6g-s
+
+- 
