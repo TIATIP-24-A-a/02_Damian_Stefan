@@ -1,12 +1,12 @@
 import unittest
-from quicksort.py import quicksort
+from quicksort import quicksort
 
 class TestSort(unittest.TestCase):
     input: list
     output: list
 
     # Test
-    def test_sort(self):
+    def test(self):
         testInput = [3, 0, 12, 8]  # Arrange
-        testOutput= quicksort(a)  # Act
+        testOutput= quicksort(testInput)  # Act
         self.assertEqual(testOutput, testInput)  # Assert
