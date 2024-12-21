@@ -6,7 +6,7 @@ class TestSort(unittest.TestCase):
     output: list
 
     # Test
-    def test(self):
-        testInput = [3, 0, 12, 8]  # Arrange
+    def testUnsorted(self):
+        testInput = [8, 3, 1, 7, 0, 10, 2]  # Arrange
         testOutput= quicksort(testInput)  # Act
         self.assertEqual(testOutput, testInput)  # Assert
