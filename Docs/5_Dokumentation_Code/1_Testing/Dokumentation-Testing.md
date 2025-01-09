@@ -71,8 +71,8 @@ Für unseren Algorithmus haben wir folgende Testfälle identifiziert:
       - Erwarteter Output: [0.5, 1.2, 2.1, 3.5, 5.7]
 
 
- 12. Eingabe in Array muss Integer oder Float sein 
+12. Eingabe in Array muss Integer oder Float sein 
     - Bei der Eingabe von anderen Elementen als Zahlen soll eine Fehlermeldung geworfen werden und der User aufgefordert, Zahlen einzugeben
-     - Input: [D, $, &, 1, 7]
-     - Fehlermeldung: "Als Eingabe dürfen nur Zahlen verwendet werden!"
+      - Input: [D, $, &, 1, 7]
+      - Fehlermeldung: "Als Eingabe dürfen nur Zahlen verwendet werden!"
         
