@@ -37,3 +37,8 @@ class TestSort(unittest.TestCase):
         test_input: list = [0, -1, 3, -5, 2]
         test_output: list = quicksort(test_input)
         self.assertEqual(test_output, [-5, -1, 0, 2, 3])
+
+    def testEmpty(self):
+        test_input: list = [7, 7, 7, 7]
+        test_output: list = quicksort(test_input)
+        self.assertEqual(test_output, [7, 7, 7, 7])
