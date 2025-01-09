@@ -28,3 +28,7 @@ class TestSort(unittest.TestCase):
         test_output: list = quicksort(test_input)
         self.assertEqual(test_output, [1, 2, 3, 4, 5])
 
+    def testDubbledElements(self):
+        test_input: list = [3, 1, 2, 3, 4, 3]
+        test_output: list = quicksort(test_input)
+        self.assertEqual(test_output, [1, 2, 3, 3, 3, 4])
