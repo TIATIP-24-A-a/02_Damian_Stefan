@@ -1,4 +1,9 @@
 import numpy as np
+# todo:
+# exceptions
+# replace list with np array
+# median of three
+# insertion sort on sorted parts
 
 
 def quicksort(array: list) -> list:
