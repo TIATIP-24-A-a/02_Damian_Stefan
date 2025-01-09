@@ -13,7 +13,7 @@ class TestSort(unittest.TestCase):
         test_output: list = quicksort(test_input)
         self.assertEqual(test_output, [42])
 
-    def testUnsorted(self):
+    def testRandom(self):
         test_input: list = [8, 3, 1, 7, 0, 10, 2]
         test_output: list = quicksort(test_input)
         self.assertEqual(test_output, [0, 1, 2, 3, 7, 8, 10])
@@ -38,7 +38,17 @@ class TestSort(unittest.TestCase):
         test_output: list = quicksort(test_input)
         self.assertEqual(test_output, [-5, -1, 0, 2, 3])
 
-    def testEmpty(self):
+    def testAllTheSame(self):
         test_input: list = [7, 7, 7, 7]
         test_output: list = quicksort(test_input)
         self.assertEqual(test_output, [7, 7, 7, 7])
+
+    def testManyDoubled(self):
+        test_input: list = [4, 5, 4, 4, 6, 4, 5, 5]
+        test_output: list = quicksort(test_input)
+        self.assertEqual(test_output, [4, 4, 4, 4, 5, 5, 5, 6])
+
+    def testFloats(self):
+        test_input: list = [2.1, 3.5, 1.2, 5.7, 0.5]
+        test_output: list = quicksort(test_input)
+        self.assertEqual(test_output, [0.5, 1.2, 2.1, 3.5, 5.7])
