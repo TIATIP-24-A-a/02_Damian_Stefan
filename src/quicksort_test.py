@@ -52,3 +52,9 @@ class TestSort(unittest.TestCase):
         test_input: list = [2.1, 3.5, 1.2, 5.7, 0.5]
         test_output: list = quicksort(test_input)
         self.assertEqual(test_output, [0.5, 1.2, 2.1, 3.5, 5.7])
+
+    def test_numbers_smaller_than_1_or_bigger_than_100(self):
+        with self.assertRaises(Exception) as context:
+            test_input: list = ['D', '$', '&', 1, 7]
+            quicksort(test_input)
+        self.assertEqual(str(context.exception), "Als Eingabe dürfen nur Zahlen verwendet werden!")
