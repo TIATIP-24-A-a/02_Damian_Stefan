@@ -74,5 +74,5 @@ Für unseren Algorithmus haben wir folgende Testfälle identifiziert:
  12. Eingabe in Array muss Integer oder Flow sein 
     - Bei der Eingabe von anderen Elementen als Zahlen soll eine Fehlermeldung geworfen werden und der User aufgefordert, Zahlen einzugeben
      - Input: [D, $, &, 1, 7]
-     - Fehlermeldung: Als Eingabe dürfen nur Zahlen verwendet werden!
+     - Fehlermeldung: "Als Eingabe dürfen nur Zahlen verwendet werden!"
         
