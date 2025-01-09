@@ -17,3 +17,14 @@ class TestSort(unittest.TestCase):
         test_input: list = [8, 3, 1, 7, 0, 10, 2]
         test_output: list = quicksort(test_input)
         self.assertEqual(test_output, [0, 1, 2, 3, 7, 8, 10])
+
+    def testSorted(self):
+        test_input: list = [1, 2, 3, 4, 5]
+        test_output: list = quicksort(test_input)
+        self.assertEqual(test_output, [1, 2, 3, 4, 5])
+
+    def testReverseSorted(self):
+        test_input: list = [5, 4, 3, 2, 1]
+        test_output: list = quicksort(test_input)
+        self.assertEqual(test_output, [1, 2, 3, 4, 5])
+
