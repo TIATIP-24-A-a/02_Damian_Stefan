@@ -1,14 +1,13 @@
-# 2_Recherche
-Hier werden die zur Recherche verwendeten Informationsquellen sowie deren Quellangaben aufgelistet
+# Recherche
+Hier werden die zur Recherche verwendeten Informationsquellen sowie deren Quellangaben aufgelistet. Dabei ist die Dokumentation wie folgt aufgebaut:
 
-
-## Quellen
-
-- Quicksort Algorithmus / Quick Sort Sortierverfahren mit Beispiel (deutsch)
+- Bezogene Informationen
   - Art der Informationen
   - Url / Quellangabe
-  
-- Quicksort Algorithmus / Quick Sort Sortierverfahren mit Beispiel (deutsch)
+
+## Quellen
+ 
+- Funktionsprinzip Quicksort Algorithmus / Quick Sort Sortierverfahren mit Beispiel (deutsch)
   - Erklärvideo, wie der Quicksort Algorithmus funktioniert.
   - https://www.youtube.com/watch?v=eNUM23f6g-s
 
