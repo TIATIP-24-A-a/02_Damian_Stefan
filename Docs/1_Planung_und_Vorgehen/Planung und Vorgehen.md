@@ -19,7 +19,7 @@ Um unsere Erkenntnisse und Ergebnisse für uns möglichst Übersictlich ablegen 
     - Es wurde während dem Projekt festgestellt, dass auf Grund der geringen Komplexität auf Best Practices verzichtet werden kann. Auf Grund Vollständigkeit und für zukunftige Verwendung der Ordnerstruktur, wurde dieser Ordner aber trotzdem im Repository belassen.
 - 4_Praesentation
   - Enthält alle Dokumente, die für die Abgabe und Präsentation der Projektarbeit notwendig sind
-  - Bsp: Handout, Präsentation und Fazit
+    - Bsp: Handout, Präsentation und Fazit
 - 5_Dokumentation Code
   - Enthält die Dokumentation der verwendeten Test-Cases
   - Enthält eine Schritt für Schritt Dokumentation des verwendeten Codes. Diese Schritt für Schritt Anleitung dient zum Besseren Verständnis des verwendeten Codes für die Projektbeteiligten und ist nicht für externe Personen gedacht.
