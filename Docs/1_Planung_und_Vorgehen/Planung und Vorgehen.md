@@ -21,8 +21,9 @@ Um unsere Erkenntnisse und Ergebnisse für uns möglichst Übersictlich ablegen 
   - Enthält alle Dokumente, die für die Abgabe und Präsentation der Projektarbeit notwendig sind
   - Bsp: Handout, Präsentation und Fazit
 - 5_Dokumentation Code
-  - Enthält eine Schritt für Schritt Dokumentation des verwendeten Codes. Diese Schritt für Schritt Anleitung dient zum Besseren Verständnis des verwendeten Codes fr die Projektbeteiligten und ist nicht für externe Personen gedacht.
-  - ACHTUNG: Hierbei handelt es sich möglicherweise nicht um den aktuellsten Code. Denn aktuellsten Code finden Sie im src Verzeichnis.
+  - Enthält die Dokumentationder verwendeten Test-Cases
+  - Enthält eine Schritt für Schritt Dokumentation des verwendeten Codes. Diese Schritt für Schritt Anleitung dient zum Besseren Verständnis des verwendeten Codes für die Projektbeteiligten und ist nicht für externe Personen gedacht.
+    - ACHTUNG: Hierbei handelt es sich möglicherweise nicht um den aktuellsten Code. Denn aktuellsten Code finden Sie im src Verzeichnis.
 
 ## Vorgehen
 Für die Durchführung dieser Projektarbeit haben wir uns für folgendes Vorgehen entschieden:
