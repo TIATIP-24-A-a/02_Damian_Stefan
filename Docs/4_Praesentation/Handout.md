@@ -3,6 +3,11 @@ Quicksort (englisch quick ‚schnell‘ und to sort ‚sortieren‘) ist ein sch
 der nach dem Prinzip Teile und herrsche arbeitet. Er wurde ca. 1960 von C. Antony R. Hoare in seiner Grundform entwickelt
 und seitdem von vielen Forschern verbessert. Der Algorithmus hat den Vorteil, dass er über eine sehr kurze innere Schleife verfügt, was die Ausführungsgeschwindigkeit stark erhöht.
 
+- *Allgemeine Informationen (Ursprung und Beschrieb) Quicksort Algorithmus*
+  - *Wikipedia Site zu Quicksort*
+  - *https://de.wikipedia.org/wiki/Quicksort*
+
+
 ## Funktionsprinzip
 Zunächst wird die zu sortierende Liste in zwei Teillisten („linke“ und „rechte“ Teilliste) getrennt. Dazu wählt Quicksort ein sogenanntes Pivotelement aus der Liste aus. 
 Alle Elemente, die kleiner als das Pivotelement sind, kommen in die linke Teilliste, und alle, die größer sind, in die rechte Teilliste.
@@ -10,16 +15,20 @@ Für beide dieser Teillisten wird wiederum jeweils ein Pivotelement definiert un
 Teillisten eine Länge von 1 oder 0 aufweisen. Diese Selbstaufrufe werden als Rekursion bezeichnet.
 
 
-
 Hier Schema Teilen einfügen
 
 
 
 
-Im Anschluss werden die erstellten Teillisten wieder zusammengesetzt. Auf Grund deren Sortierung und der Pivotelemente erhält man nach Abschluss der Zusammenführung ein perfekt sortîertes Array. 
+Im Anschluss werden die erstellten Teillisten wieder zusammengesetzt. Auf Grund deren Sortierung und der Pivotelemente (Array wird je vor oder nach Pivotelement eingefügt, jenachdem ob bei Teilen Grösser oder kleiner als Pivotelement) erhält man nach Abschluss der Zusammenführung ein perfekt sortiertes Array. 
 
 
 Hier Schema Zusammenfügen einfügen
+
+- *Funktionsprinzip Quicksort Algorithmus / Quick Sort Sortierverfahren mit Beispiel (deutsch)*
+  - *Erklärvideo, wie der Quicksort Algorithmus funktioniert.*
+  - *https://www.youtube.com/watch?v=eNUM23f6g-s*
+
 
 
 ## Anwendungsfälle
@@ -40,6 +49,15 @@ Hier Schema Zusammenfügen einfügen
 4. Datenverarbeitung in parallelen und verteilten Systemen
     Verteilte Systeme: In Systemen, die Daten über mehrere Maschinen verteilen, kann Quicksort verwendet werden, um parallel Daten auf verschiedenen Knoten zu sortieren und zu kombinieren.
     
+- *Anwendungsfälle von Quicksort*
+  - *Artikel in dem Funktion und Anwendungsfälle von Quicksort beschrieben werden.*
+  - *https://datascientest.com/de/quicksort-beschreibung-und-bedeutung-dieses-sortieralgorithmus*
+
+- *Anwendungsfälle von Quicksort*
+  - *Vorgeschlagene Anwendungsfälle durch ChatGPT (Einabe: Hi ChatGPT. Kannst du mir Anwendungsfälle für Quicksor nennen?).*
+  - *ChatGPT*
+
+
 
 ## Vor-  und Nachteile
 
@@ -81,6 +99,10 @@ Hier Schema Zusammenfügen einfügen
 
 4. Unregelmäßige Performance bei schlecht strukturierten Daten:
    - Wenn die Daten sehr unregelmäßig oder bereits unsortiert sind, kann Quicksort durch die schlechte Wahl des Pivots ineffizient werden und im schlimmsten Fall eine O(n²)-Leistung erreichen. Dies kann durch den Einsatz spezieller Techniken zur Wahl des Pivots gemildert werden, aber es bleibt ein potenzielles Problem.
+
+- *Vor- und Nachteile von Quicksort*
+  - *Artikel in dem Funktion, sowie Vor- und Nachteile von Quicksort beschrieben werden.*
+  - *https://www.studysmarter.de/schule/informatik/algorithmen-und-datenstrukturen/quicksort/*
 
 
 ## Testing
@@ -164,6 +186,18 @@ Für unseren Algorithmus haben wir folgende Testfälle identifiziert:
 In dieser Arbeit wurden die Testfälle mit folgendem Code abgehandelt:
 
 ```python
+Hier Code einfügen
+
+```
+
+- *Eigene Testfälle*
+- *Vorschlagene Testfälle für Quicksort*
+  - *Ergänzen unserer Testfälle mit Vorschlägen aus ChatGPT (Hi ChatGPT. Kannst du mir mögliche Testfällefür Quicksort nennen?)*
+  - *ChatGPT*
 
 
 ## Python Implementierung
+
+Hier Flowchart einfügen
+
+Hier grober Beschrieb Code einfügen
