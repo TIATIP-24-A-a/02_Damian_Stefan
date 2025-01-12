@@ -273,12 +273,65 @@ class TestSort(unittest.TestCase):
 
 ## Python Implementierung
 
-Hier Flowchart einfügen
+Anhand der, durch die Recherche gewonnenen, Erkenntnisse zum Funktionsprinzip des Quicksort Algorithmus, entschieden wir uns diesen wie folgt in unserem Python -Code abzubilden:
 
-Hier grober Beschrieb Code einfügen
+1. Definition Funktion Quicksort
+   - Array als Eingabe
+   - Definition Variable Pivot, die später Pivot-Wert speichert
+   - Initialisierung Liste left, Liste middle und Liste right
+  
+2. Definition Basisfall
+    - Wenn Liste leer oder nur ein ELement enthält ist sie bereits sortiert
+    - Das Array wird ohne Fehlermeldung oder Sortierung wieder ausgegeben
+   
+3. Auswahl Pivot-Element
+   - Pivot-Element wird als das mittlere Element (Median) des Arrays ausgewählt.
+   - len(array) // 2 berechnet dabei den Index des mittleren Elements.
+   
+4. Partitionierung der Liste
+   - Der Code durchläuft jedes Element im Array, überprüft ob die enthaltenen Elemente int oder float sind
+     - Wenn ein Element nicht vom Typ int oder float ist, wird die Meldung "Als Eingabe dürfen nur Zahlen verwendet werden!" ausgegeben
+   - Elemente werden gemäss Pivot-Element einsortiert
+     - Wenn das Element kleiner als das Pivot ist, wird es zur Array left hinzugefügt. 
+     - Wenn es gleich dem Pivot ist, wird es zur Array middle hinzugefügt.
+     - Wenn es größer ist, geht es in die Array right.
+     
+5. Rekursiver Aufruf von Quicksort
+   - Nachdem das Array in left, middle und right aufgeteilt wurde, wird die Funktion rekursiv auf left und right angewendet.
+   
+6. Ergebnis zusammenführen
+   - Nachdem die rekursiven Aufrufe abgeschlossen sind, werden die sortierten Arrays für left, middle und right wieder zusammengefügt.
+   - Das Ergebnis ist ein perfekt sortiertes Array
+
+![codetoflow.png](Bilder%2Fcodetoflow.png)
 
 ````python
-Hier Code einfügen
+def quicksort(array: list):
+    pivot: int
+    left: list = []
+    middle: list = []
+    right: list = []
+
+    if len(array) <= 1:
+        return array, None
+
+    pivot = array[(len(array) // 2 )]
+
+    for x in array:
+        if isinstance(x, int | float):
+            if x < pivot:
+                left.append(x)
+            elif x == pivot:
+                middle.append(x)
+            else:
+                right.append(x)
+        else:
+            return None, Exception("Als Eingabe dürfen nur Zahlen verwendet werden!")
+
+        left = quicksort(left)
+        right = quicksort(right)
+
+        return left +  middle + right
 ````
 
 ## Fazit
