@@ -14,16 +14,14 @@ Alle Elemente, die kleiner als das Pivotelement sind, kommen in die linke Teilli
 Für beide dieser Teillisten wird wiederum jeweils ein Pivotelement definiert und die Teilliste anhand diesem erneut sortiert. Dies wird solange wiederholt, bis die einzelnen
 Teillisten eine Länge von 1 oder 0 aufweisen. Diese Selbstaufrufe werden als Rekursion bezeichnet.
 
-
-Hier Schema Teilen einfügen
-
+![Schema_Trennen.png](Bilder%2FSchema_Trennen.png)
 
 
 
-Im Anschluss werden die erstellten Teillisten wieder zusammengesetzt. Auf Grund deren Sortierung und der Pivotelemente (Array wird je vor oder nach Pivotelement eingefügt, jenachdem ob bei Teilen Grösser oder kleiner als Pivotelement) erhält man nach Abschluss der Zusammenführung ein perfekt sortiertes Array. 
+Im Anschluss werden die erstellten Teillisten wieder zusammengesetzt. Auf Grund deren Sortierung und der Pivotelemente (Array wird vor oder nach Pivotelement eingefügt, jenachdem ob bei Teilen Grösser oder kleiner als Pivotelement) erhält man nach Abschluss der Zusammenführung ein perfekt sortiertes Array. 
 
 
-Hier Schema Zusammenfügen einfügen
+![Schema_Zusammenführen.png](Bilder%2FSchema_Zusammenf%C3%BChren.png)
 
 - *Funktionsprinzip Quicksort Algorithmus / Quick Sort Sortierverfahren mit Beispiel (deutsch)*
   - *Erklärvideo, wie der Quicksort Algorithmus funktioniert.*
@@ -282,3 +280,5 @@ Hier grober Beschrieb Code einfügen
 ````python
 Hier Code einfügen
 ````
+
+## Fazit
