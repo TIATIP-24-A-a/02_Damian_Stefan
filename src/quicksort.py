@@ -1,6 +1,3 @@
-from logging import exception
-
-
 # todo:
 # replace list with np array
 # median of three
