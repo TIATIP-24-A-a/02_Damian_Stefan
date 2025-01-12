@@ -26,10 +26,16 @@ Dabei ist die Dokumentation wie folgt aufgebaut:
 - ChatGPT
     - OpenAI
     - https://chatgpt.com/auth/login
-    - Erstellen Best Practices Quicksort
+    - Recherche, Erstellen Best Practices Quicksort
 
 
 - GitHub
     - GitHub
     - https://github.com/
     - Erstellen gemeinsames Repository
+
+
+- Draw.io
+    - Draw.io
+    - https://draw.io
+    - Erstellen Schemas
