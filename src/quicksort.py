@@ -1,8 +1,5 @@
 from logging import exception
 
-import numpy as np
-from requests.cookies import extract_cookies_to_jar
-
 
 # todo:
 # replace list with np array
