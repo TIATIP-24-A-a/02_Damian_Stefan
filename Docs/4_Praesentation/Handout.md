@@ -9,16 +9,16 @@ und seitdem von vielen Forschern verbessert. Der Algorithmus hat den Vorteil, da
 
 
 ## Funktionsprinzip
-Zunächst wird die zu sortierende Liste in zwei Teillisten („linke“ und „rechte“ Teilliste) getrennt. Dazu wählt Quicksort ein sogenanntes Pivotelement aus der Liste aus. 
-Alle Elemente, die kleiner als das Pivotelement sind, kommen in die linke Teilliste, und alle, die größer sind, in die rechte Teilliste.
-Für beide dieser Teillisten wird wiederum jeweils ein Pivotelement definiert und die Teilliste anhand diesem erneut sortiert. Dies wird solange wiederholt, bis die einzelnen
-Teillisten eine Länge von 1 oder 0 aufweisen. Diese Selbstaufrufe werden als Rekursion bezeichnet.
+Zunächst wird das zu sortierende Array in zwei Teil-Arrays („linkes“ und „rechtes“ Teil-Array) getrennt. Dazu wählt Quicksort ein sogenanntes Pivotelement aus dem Array aus. 
+Alle Elemente, die kleiner als das Pivotelement sind, kommen in das linke Teil-Array, und alle, die größer sind, in das rechte Teil-Array.
+Für beide dieser Teil-Arrays wird wiederum jeweils ein Pivotelement definiert und das Teil-Array anhand diesem erneut sortiert. Dies wird solange wiederholt, bis die einzelnen
+Teil-Arrays eine Länge von 1 oder 0 aufweisen. Diese Selbstaufrufe werden als Rekursion bezeichnet.
 
 ![Schema_Trennen.png](Bilder%2FSchema_Trennen.png)
 
 
 
-Im Anschluss werden die erstellten Teillisten wieder zusammengesetzt. Auf Grund deren Sortierung und der Pivotelemente (Array wird vor oder nach Pivotelement eingefügt, jenachdem ob bei Teilen Grösser oder kleiner als Pivotelement) erhält man nach Abschluss der Zusammenführung ein perfekt sortiertes Array. 
+Im Anschluss werden die erstellten Teil-Arrays wieder zusammengesetzt. Auf Grund deren Sortierung und der Pivotelemente (Array wird vor oder nach Pivotelement eingefügt, jenachdem ob bei Teilen Grösser oder kleiner als Pivotelement) erhält man nach Abschluss der Zusammenführung ein perfekt sortiertes Array. 
 
 
 ![Schema_Zusammenführen.png](Bilder%2FSchema_Zusammenf%C3%BChren.png)
@@ -333,5 +333,9 @@ def quicksort(array: list):
 
         return left +  middle + right
 ````
+## Komplexitätsanalyse
+
+
 
 ## Fazit
+
