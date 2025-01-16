@@ -26,7 +26,7 @@ Dabei ist die Dokumentation wie folgt aufgebaut:
 - ChatGPT
     - OpenAI
     - https://chatgpt.com/auth/login
-    - Recherche, Erstellen Best Practices Quicksort
+    - Recherche, Erstellen Best Practices Quicksort, Erstellen Komplexitätsanalyse
 
 
 - GitHub
