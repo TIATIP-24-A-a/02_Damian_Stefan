@@ -334,7 +334,10 @@ def quicksort(array: list):
 ````
 ## Komplexitätsanalyse
 
+Die durchgeführte Komplexitätsanalyse ergab einen Wert von O(n), gemäss BigO-Notation. Dieser Wert erschien den Projektbeteiligten sureal. Dies da die Recherche zu Quicksort ergab, dass im Optimalfall ein Wert von O(log n) erreicht wird.
+Trotz Prüfung der Komplexitätsanalyse und des verwendeten Codes, fanden die Projektbeteilgten keinen Fehler, möchten aber darauf hinweisen, dass das erhaltene Ergebniss in Sachen Komplexitätsanalyse möglicherweise fehlerhaft ist.
 
+![Komplexitaetsanalyse.png](Bilder%2FKomplexitaetsanalyse.png)
 
 ## Fazit
 
