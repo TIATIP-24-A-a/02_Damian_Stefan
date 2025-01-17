@@ -65,12 +65,11 @@ class TestSort(unittest.TestCase):
     def testMixedTypes(self):
         test_input = ['D', '$', '&', 1, 7]
         test_output, error = quicksort(test_input)
-        test_output, error = quicksort(test_input)
         self.assertEqual(test_output, None)
-        self.assertEqual(error, Exception("Als Eingabe dürfen nur Zahlen verwendet werden!"))
+        self.assertEqual(str(error),"Als Eingabe dürfen nur Zahlen verwendet werden!")
 
     def testListOfStrings(self):
         test_input = ['D', '$', '&', 'f', '5']
         test_output, error = quicksort(test_input)
         self.assertEqual(test_output, None)
-        self.assertEqual(error, Exception("Als Eingabe dürfen nur Zahlen verwendet werden!"))
+        self.assertEqual(str(error),"Als Eingabe dürfen nur Zahlen verwendet werden!")
