@@ -1,7 +1,3 @@
-# todo:
-# replace list with np array
-# median of three
-# insertion sort on sorted parts
 
 
 def quicksort(array: list):
@@ -16,7 +12,7 @@ def quicksort(array: list):
     pivot = array[(len(array) // 2 )]
 
     for x in array:
-        if isinstance(x, int | float):
+        if isinstance(x, (int, float)):
             if x < pivot:
                 left.append(x)
             elif x == pivot:
@@ -26,7 +22,6 @@ def quicksort(array: list):
         else:
             return None, Exception("Als Eingabe dürfen nur Zahlen verwendet werden!")
 
-        left = quicksort(left)
-        right = quicksort(right)
-
-        return left +  middle + right
+    left, leftErr = quicksort(left)
+    right, rightErr = quicksort(right)
+    return (left +  middle + right), None
