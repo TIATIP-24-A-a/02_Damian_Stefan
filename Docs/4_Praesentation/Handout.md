@@ -303,7 +303,7 @@ Anhand der, durch die Recherche gewonnenen, Erkenntnisse zum Funktionsprinzip de
    - Nachdem die rekursiven Aufrufe abgeschlossen sind, werden die sortierten Arrays für left, middle und right wieder zusammengefügt.
    - Das Ergebnis ist ein perfekt sortiertes Array
 
-![codetoflow.png](Bilder%2Fcodetoflow.png)
+![Flowchart.png](Bilder%2FFlowchart.png)
 
 ````python
 def quicksort(array: list):
