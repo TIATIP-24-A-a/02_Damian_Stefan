@@ -5,8 +5,10 @@ Aus der vorligenden Projektarbeit konnten die Projektbeteilgten folgendes Fazit 
 
 ## Gemeinsam
 - Quicksort
+  - Wir konnten viel neues zur Funktionalität und den Einsatzgebieten lernen.
 - Erstellen automatisiertes Testing
-- 
+  - In dieser Arbeit konnten die Projektbeteiligten zu ersten Mal autmatisierte Testmethoden und damit ein effizientes TDD anwenden. Dabei wurden Learnigs zur Herangehendweise zur Umsetzung von Testfällen zu Python-Code,
+    aber auch zur Implementation desselbigen im Projekt.
 
 ## Fazit Damian
 
